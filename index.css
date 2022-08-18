@@ -1,0 +1,63 @@
+body {
+  background: rgb(255, 231, 231);
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: max-content;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(253, 92, 92);
+  font-weight: 200;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: italic;
+}
+
+h3 {
+  color: grey;
+  border-bottom: 1px solid grey;
+}
+
+.nav-links {
+  color: rgb(253, 92, 92);
+}
+
+.cards img {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.cards p {
+  text-align: center;
+}
+
+.tip-section img {
+  width: 400px;
+}
+
+.contributor-info {
+  display: flex;
+  gap: 1rem;
+}
+
+.contributor-info img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
